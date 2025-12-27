@@ -31,3 +31,20 @@ To run this project locally, follow these steps:
    ```bash
    git clone [https://github.com/nikpournastaran/Deep-Learning-Person-Detection.git](https://github.com/nikpournastaran/Deep-Learning-Person-Detection.git)
    cd Deep-Learning-Person-Detection
+
+2. **Install dependencies:**
+
+pip install ultralytics opencv-python matplotlib
+
+
+3. **Inference Example:**
+   from ultralytics import YOLO
+
+# Load the trained weights
+model = YOLO('yolov8n.pt') 
+
+# Run detection
+results = model.predict(source='path/to/your/image.jpg', save=True)
+
+
+
