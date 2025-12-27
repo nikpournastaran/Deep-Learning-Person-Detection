@@ -46,5 +46,6 @@ model = YOLO('yolov8n.pt')
 # Run detection
 results = model.predict(source='path/to/your/image.jpg', save=True)
 
-
+## 📊 Results
+The model demonstrates high sensitivity in crowded scenes and varying lighting conditions, making it suitable for surveillance or autonomous driving research.
 
