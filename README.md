@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
    cd Deep-Learning-Person-Detection
 
 2. **Install dependencies:**
-
+```bash
 pip install ultralytics opencv-python matplotlib
 
 
